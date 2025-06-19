@@ -1,0 +1,63 @@
+.people-container {
+  height: 100%;
+  overflow: auto;
+  border-right: 2px solid black;
+  border-radius: 1rem;
+  width: 45%;
+}
+.people-container::-webkit-scrollbar {
+  display: none;
+}
+.logo-container {
+  margin-top: 1rem;
+  display: flex;
+  padding-bottom: 1rem;
+}
+.logo {
+  color: rgb(45, 184, 45);
+  font-size: 1.3rem;
+  margin: 0 1rem 0 1rem;
+}
+.whatsapp-text {
+  font-size: 1.3rem;
+}
+.logout {
+  color: rgba(255, 46, 46, 0.719);
+  font-size: 2rem;
+  margin: 0 0rem 0 16rem;
+}
+.userinfo-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  margin-top: 1rem;
+  border-bottom: 2px solid grey;
+  height: 4.5rem;
+}
+.userimage {
+  position: relative;
+  width: 17%;
+  height: 3.8rem;
+  border-radius: 5rem;
+  border: 2px solid black;
+  left: 0.5rem;
+}
+.chats {
+  position: relative;
+  left: 1rem;
+  top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.Typing {
+  font-size: 1.3rem;
+  position: relative;
+  left: 13rem;
+  top: 1rem;
+}
+.details {
+  font-size: 1.3rem;
+  position: relative;
+  left: 9rem;
+  top: 1rem;
+}

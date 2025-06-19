@@ -1,0 +1,26 @@
+.search-container {
+  display: flex;
+  width: 100%;
+  height: 9%;
+  border-bottom: 1px solid grey;
+  padding: 1rem;
+}
+.searchbox {
+  position: relative;
+  left: 0rem;
+  padding: 1rem;
+  width: 90%;
+  border-right: initial !important;
+  border-bottom: 4px solid green;
+  border-radius: 0.4rem;
+}
+.search-icon {
+  position: relative;
+  border-left: initial !important;
+  padding: 0.5rem 0rem 1.5rem 0.5rem;
+  width: 10%;
+  height: 100%;
+  border: 2px solid black;
+  border-bottom: 4px solid green;
+  border-radius: 0.5rem;
+}

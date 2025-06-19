@@ -1,0 +1,99 @@
+.signup-container {
+  width: 30%;
+  height: 60%;
+  border: 2px solid white;
+  background-color: white;
+  position: fixed;
+  left: 30%;
+  bottom: 20%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.7rem;
+}
+.Innerdiv {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  width: 90%;
+  top: -3%;
+  left: 0%;
+}
+.heading {
+  font-size: 1.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 0.5rem;
+}
+.selectdropdown {
+  width: 12rem;
+  height: 2rem;
+  border-radius: 0.7rem;
+}
+
+.userprofileimage {
+  position: absolute;
+  border: 4px solid rgb(216, 214, 214);
+  width: 9rem;
+  height: 9rem;
+  right: 12rem;
+  background-color: initial !important;
+  top: -6rem;
+  border-radius: 5rem;
+}
+::-webkit-file-upload-button {
+  display: none;
+}
+
+.username {
+  border-radius: 0.7rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 20rem;
+}
+.password {
+  border-radius: 0.7rem;
+  width: 20rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+.useremail {
+  border-radius: 0.7rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 20rem;
+}
+.registerbtn {
+  position: relative;
+  top: 1rem;
+  padding: 10px;
+  width: 30%;
+  border-radius: 0.7rem;
+}
+.Loginoption {
+  position: relative;
+  top: 40rem;
+  left: 32rem;
+  width: 30%;
+  border-radius: 0.7rem;
+  padding: 2rem 2rem 2rem 7rem;
+  height: 5%;
+  background-color: white;
+}
+.Logintext {
+  margin-top: -1rem;
+  font-size: 1.2rem;
+}
+.Loading {
+  position: absolute;
+  right: 14rem;
+  top: 0rem;
+  color: white;
+  z-index: 99;
+}
+.signinlink {
+  text-decoration: none;
+}

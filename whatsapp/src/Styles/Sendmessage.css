@@ -1,0 +1,39 @@
+.sendmessage-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-top: 2px solid black;
+  position: relative;
+  top: 6.5rem;
+  height: 9%;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  background-color: rgb(237, 234, 234);
+  border-radius: 1rem;
+  margin-top: -1.5rem;
+}
+.emoji {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+.attachment {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+.message-box {
+  height: 90%;
+  width: 80%;
+  border: initial !important;
+  background-color: initial !important;
+  padding: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.message-box:focus {
+  outline: none;
+}
+.send-icon {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,10 @@
+.welcome-container {
+  width: 60vw;
+  height: 93vh;
+  border: 2px solid black;
+  border-radius: 1rem;
+  position: relative;
+  top: 1rem;
+  left: 20rem;
+  display: flex;
+}
